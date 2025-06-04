@@ -1,11 +1,11 @@
 <template>
-  <div class="max-w-xs mx-auto mt-8 bg-gray-900 rounded-xl shadow-lg p-4">
+  <div class="max-w-sm w-full mx-auto bg-gray-900 rounded-xl shadow-lg p-4">
     <div class="bg-black text-right text-white text-2xl rounded mb-2 px-2 py-4 min-h-[48px]">
       {{ display }}
     </div>
     <!-- botões  -->
     <div class="grid grid-cols-4 gap-2">
-      <Button type="action"  @click="clearAll">C</Button>
+      <Button type="action" @click="clearAll">C</Button>
       <Button type="action" @click="inverterSinal">±</Button>
       <Button type="action" @click="porcentagem">%</Button>
       <Button type="operator" @click="chooseOperator('÷')">÷</Button>
@@ -119,5 +119,4 @@ function porcentagem() {
 
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

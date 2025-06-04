@@ -1,35 +1,63 @@
-# calculadora-vue
+# Calculadora Aritmética - Vue 3 + Tailwind
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é um projeto de calculadora desenvolvido como atividade do curso de Vue.js da EBAC, utilizando Vue 3 e Tailwind CSS.
 
-## Recommended IDE Setup
+## Preview
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[![Print da calculadora](image.png)]
 
-## Customize configuration
+## Funcionalidades
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Quatro operações: soma, subtração, multiplicação e divisão
+- Botão de igual (=) para calcular o resultado
+- Limpar tudo (C)
+- Porcentagem (%)
+- Inverter sinal (±)
+- Ponto decimal (.)
+- Layout inspirado na calculadora do Windows, com responsividade
 
-## Project Setup
+## Tecnologias usadas
 
-```sh
-npm install
-```
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-### Compile and Hot-Reload for Development
+## Como rodar o projeto
 
-```sh
-npm run dev
-```
+1. Clone este repositório:
+    ```bash
+    https://github.com/MateusPiresLino/calculadora-vue.git
+    cd calculadora-vue
+    ```
 
-### Compile and Minify for Production
+2. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-```sh
-npm run build
-```
+3. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+    O projeto vai rodar em http://localhost:5173
 
-### Lint with [ESLint](https://eslint.org/)
+## Estrutura do projeto
 
-```sh
-npm run lint
-```
+- `src/components/Button.vue` - Componente dos botões
+- `src/components/CalculatorApp.vue` - Componente principal da calculadora
+- `src/assets/main.css` - Arquivo com o Tailwind CSS
+
+## O que aprendi
+
+- Componentização com Vue 3
+- Uso de variáveis reativas (ref)
+- Estilização com Tailwind CSS
+- Lógica de operações matemáticas com JavaScript
+
+## Licença
+
+Projeto desenvolvido apenas para fins de estudo.
+
+---
+
+Desenvolvido por [Mateus Lino](https://github.com/MateusPiresLino) durante o exercício do módulo de Vue.js da EBAC.
