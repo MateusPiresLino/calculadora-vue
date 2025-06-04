@@ -120,5 +120,4 @@ function porcentagem() {
 </script>
 
 <style scoped>
-/* Podemos usar Tailwind, mas aqui vão estilos especificos se precisar*/
 </style>
